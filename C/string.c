@@ -5,7 +5,7 @@
 
 int main() 
 {
-	int i;
+    int i;
     char s[100];
     gets(s); 
     // OR scanf("%[^\n]%*c",s);
