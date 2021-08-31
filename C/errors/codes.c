@@ -28,3 +28,17 @@ int main() {
     return 0;
 }
 
+// MALLOC
+int main() {
+int i,n,sum=0;
+scanf("%d",&n);    
+    int *val = malloc(n*sizeof(int));
+for(i=0;i<n;i++)
+ 
+scanf("%d",&val[i]);
+for(i=0;i<n;i++)
+ sum=sum+val[i];
+ 
+printf("%d",sum);
+free(val);
+
